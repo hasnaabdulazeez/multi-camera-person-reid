@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Data, weights and outputs (download or train locally)
+data/raw/
+data/processed/
+runs/
+outputs/
+checkpoints/
+mlruns/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.h5
+*.keras
+*.joblib
+*.parquet
+*.db
+*.sqlite3
+
+# Node
+node_modules/
+dist/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+data/yolo/
